@@ -1,9 +1,8 @@
-# udacity_capstone_project
+# Udacity capstone project: predicting the EBIDTA of Brazil's largest companies
 
-## Introduction
-Once every few days, Starbucks sends out an offer to users of the mobile app. An offer can be merely an advertisement for a drink or an actual offer such as a discount or BOGO (buy one get one free). Some users might not receive any offers during certain weeks.
+## Introduction and project motivation
+Every year (for 48 years now), the Brazilian fortnightly magazine Exame, that specializes in business and technology and is published by Editora Abril, releases a study called ["Melhores e Maiores" (Best and Largest)](https://mm.exame.com/), with a ranking of Brazil's 500 largest companies, based on their net profits. 
 
-### Project motivation
 The challenge with this data set is that not all users receive the same offer. There are different groups of customers that we need to take into account:
 
 Customers who viewed the offer and completed it within the time it was valid. These are the customers that have successfully responded to the offer and will be used
