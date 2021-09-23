@@ -4,14 +4,14 @@
 
 The code presented in this repository was written in Python 3. To work, it requires the following Python packages:
 
-Pandas
-Numpy
-Math 
-Seaborn
-Plotly
-Matplotlib
-Sklearn
-Statsmodels
+- Pandas
+- Numpy
+- Math 
+- Seaborn
+- Plotly
+- Matplotlib
+- Sklearn
+- Statsmodels
 
 ## Introduction and project motivation
 Every year (for 48 years now), the Brazilian fortnightly magazine Exame, that specializes in business and technology and is published by Editora Abril, releases a study called ["Melhores e Maiores" (Best and Largest)](https://mm.exame.com/), with a ranking of Brazil's 500 largest companies, based on their net profits. 
@@ -19,8 +19,8 @@ Every year (for 48 years now), the Brazilian fortnightly magazine Exame, that sp
 In the latter it was established that several indicators available for the set of Brazil's 500 largest companies in the 2015-2019 period - such as "Sales profitability in %", "Adjusted profit in US* million" and "EBITDA in US* million" - reflect a crisis scenario. 
 
 ## File Descriptions
-Capstone Notebook.ipynb: The code contained in this Jupyter notebook cleans and prepares the data, carries out the EDA analysis and generates the Machine Learning regression model. 
-data: The folder contains the exame500.csv, in which the data for the project is stored.
+- Capstone Notebook.ipynb: The code contained in this Jupyter notebook cleans and prepares the data, carries out the EDA analysis and generates the Machine Learning regression model. 
+- data: The folder contains the exame500.csv, in which the data for the project is stored.
 
 ## Methodology
 ### 1. Exploratory Data Analysis
