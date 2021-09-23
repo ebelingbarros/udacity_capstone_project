@@ -28,22 +28,27 @@ I opted to perform the data cleaning before the EDA, as the data in the original
 
 ### 2. Exploratory Data Analysis
 
-
-
-<p align="center">
-  <img width="100%" height="100%" src="https://github.com/ebelingbarros/Rasmussen_Hirschman_Linkages/blob/main/images/linkages.png"> 
-</p> 
-
+The EDA Analysis permits some crucial conclusions. As can be seen in the graph below, for the vast majority of data points the Adjusted net income in US$ million has been small. It is also noteworthy that there are more companies with a negative one than a slightly smaller than average one, which reflects the fact that the period in consideration has been of economic crisis.
 
 <p align="center">
-  <img width="100%" height="100%" src="https://github.com/ebelingbarros/Rasmussen_Hirschman_Linkages/blob/main/images/linkages.png"> 
+  <img width="80%" height="100%" src="https://github.com/ebelingbarros/udacity_capstone_project/blob/main/figure1.png"> 
 </p> 
 
+The indicator EBITDA (Earnings Before Interest, Taxes, Depreciation, and Amortization) is a measure of a company's profitability. As suggested by the Graph below, the fact that it has been low or negative for most companies reflects that this is a period of crisis.
 
-- 
+<p align="center">
+  <img width="80%" height="100%" src="https://github.com/ebelingbarros/udacity_capstone_project/blob/main/figure2.png"> 
+</p> 
+
+This graph tells us that the most profitable companies in terms of its EBITDA are either private Brazilian or foreign. As expected, SEOs have a lower EBITDA but may also have huge Net sales in US$ million.
+
+<p align="center">
+  <img width="80%" height="100%" src="https://github.com/ebelingbarros/udacity_capstone_project/blob/main/figure3.png"> 
+</p> 
+
 ### 3. Building the model
 
-The main goal of this project is to create a Machine Learning model capable of predicting the "EBITDA in US* million" and also in establishing its main determinants. The chosen independent variables were 'Net working capital in US* million', 'Net sales US* million', 'Sales profitability (perc.)", 'Employees', 'Long term indebtedness (perc.)' 
+The main goal of this project is to create a Machine Learning model capable of predicting the "EBITDA in US* million" and also in establishing its main determinants. Because of the conclusions obtained in the EDA, a preliminary step before creating the Machine Learning model is to estimate OLS estimations for the dependent variable and the chosen independent variables, 'Net working capital in US* million', 'Net sales US* million', 'Sales profitability (perc.)", 'Employees', 'Long term indebtedness (perc.)' considering subsets of the dataframe according to the companies' equity control (Private Brazilian, Foreign and SEOs). It is found that although the results are diverging, the aggregate dataframe has the best parameters and results. 
 
 For running the model four of Sklearn's estimators are recruited: Linear Regression, Random Forest, SGDR and Bayesian. 
 
