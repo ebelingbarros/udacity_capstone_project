@@ -1,93 +1,57 @@
 # Udacity capstone project: predicting the EBIDTA of Brazil's largest companies
 
+## Libraries
+
+The code presented in this repository was written in Python 3. To work, it requires the following Python packages:
+
+Pandas
+Numpy
+Math 
+Seaborn
+Plotly
+Matplotlib
+Sklearn
+Statsmodels
+
 ## Introduction and project motivation
 Every year (for 48 years now), the Brazilian fortnightly magazine Exame, that specializes in business and technology and is published by Editora Abril, releases a study called ["Melhores e Maiores" (Best and Largest)](https://mm.exame.com/), with a ranking of Brazil's 500 largest companies, based on their net profits. 
 
-The challenge with this data set is that not all users receive the same offer. There are different groups of customers that we need to take into account:
+In the latter it was established that several indicators available for the set of Brazil's 500 largest companies in the 2015-2019 period - such as "Sales profitability in %", "Adjusted profit in US* million" and "EBITDA in US* million" - reflect a crisis scenario. 
 
-Customers who viewed the offer and completed it within the time it was valid. These are the customers that have successfully responded to the offer and will be used
-Customers who viewed the offer but did not complete a purchase. 
-Customers who received the offer but didn't see it. We will not examine those.
-Customers who completed the offer without viewing it. From a business perspective, we don't want to include them as they are likely to proceed to purchase anyway
-The question we would like to explore is: 
-
-Which groups respond best to which offer type and what are their demographic or other characteristics?
-
-For each type of offer, we will build a model to predict if the customer will successfully respond to offer and what are the features with the highest importance.
-
-## Dataset
-The given data set contains simulated data that mimics customer behavior on the Starbucks rewards mobile app. 
-
-This data set is a simplified version of the real Starbucks app because the underlying simulator only has one product whereas Starbucks actually sells dozens of products.
-
-Note that informational offers have a validity period even though these ads are merely providing information about a product, so we assume the customer is feeling the influence of the offer for only the specified duration after receiving the advertisement.
-
-An exact description of the dataset is given in the notebook.
-
-## Development
-The analysis was conducted using Python 3.6.8. In order to run the notebook, the packages that need to be installed are : numpy, pandas, matplotlib, seaborn and sklearn
+## File Descriptions
+Capstone Notebook.ipynb: The code contained in this Jupyter notebook cleans and prepares the data, carries out the EDA analysis and generates the Machine Learning regression model. 
+data: The folder contains the exame500.csv, in which the data for the project is stored.
 
 ## Methodology
 ### 1. Exploratory Data Analysis
-See distributions of variables, and how the dataframes look like.
 
 ### 2. Data Cleaning
-Remove outliers, transoform columns, apply one-hot encoding.
+
 
 ### 3. Data Preprocessing
-This was the tricky part of the project. The steps I folllowed were the following:
 
-- Get person_id, customer_id of offers that were received and viewed.
-- Get person_id, customer_id of offers that were viewed and completed.
-- Merge those into offers
-- Merge offers viewed with transactions into transactions completed
-- Transform the time columns to days
-- Split into groups based on conditions
-- Repeat for transactions
-- Create offer_responded column for succesful offers and tranactions
 - 
-### 4. Build the models
-The column we want to predict is the offer_responded . As features, I used the rest of the columns. For each dataset we used a 80/20 training/test split
+### 4. Building the model
 
-I examined two models, a Decision Tree classifier, and the Random Forest Classifier. The Random Forest outperformed the Decision Tree in every type of offer.
+The main goal of this project is to create a Machine Learning model capable of predicting the "EBITDA in US* million" and also in establishing its main determinants. The chosen independent variables were 'Net working capital in US* million', 'Net sales US* million', 'Sales profitability (perc.)", 'Employees', 'Long term indebtedness (perc.)' 
 
-The metrics used to evaluate their performance were: accuracy on the test set, precision, recall, and f1-score.
-
-Using Grid Search, we optimized the parameters for the best performing model which was the Random Foster Classifier.
+For running the model four of Sklearn's estimators are recruited: Linear Regression, Random Forest, SGDR and Bayesian. 
 
 ### 5. Model Evaluation
-Using the parameters found on from the Grid Search, we achieved a very good accuracy on the test set for every type of offer.  Here are the scores for the best model for each offer:
 
-best
+With the suprising exception of the Random Forest regressor, the results are solid, with the "EBITDA in US* million" being estimated in the 189- range. Another surprising result is that the indicator "Net working capital in US* million" has been found to have a negative relationship with the dependent variable "EBITDA in US* million".
 
-The top features for each offer type were the following:
-
-BOGO offer
-bogo
-
-Discount offer
-disc
-
-Informational offer
-info
 
 ## Conclusion
-Overall, we gained some very interesting insights which features are more important in predicting if a customer will respond to an offer.
 
-The data preprocessing was particularly challenging in this project. It is indeed true that data scientists spend 80% of their time cleaning data!
 
-After cleaning the data, we identified two main groups of customers: those who have responded to an offer, meaning that they have viewed it and performed a transaction while the offer was valid (in the duration from the day received) and customers who did see the offer but did not eventually make a purchase.
-
-Then, the dataset was split by offer type (BOGO, discount, or informational) with the aim to explore separately what correlates with an offer being responded to each offer type. For each offer two classifiers were trained ( Decision Tree and Random Forest) and fine-tuning the parameters of the best one with Grid Search, we achieved high accuracy on the test set for every type of offer. 
-
-BOGO: 0.85 test score
-Discount:0.89 test score
-Informational:0.74 test score
-For all the BOGO and the discount offers, the most important features that affected if the offer will be responded to where the length of membership. The longer the customer as a member of Starbucks, the more likely they will respond to the offer they receive.  The second most important feature was the day viewed. The day they viewed the offer was also the top feature of the informational offers, suggesting that certain days might be optimal for sending these types of offers. As far as the demographic characteristics, age and income played an important role as well.
 
 ## Next steps
-In future iterations, I would like to try more classifiers in order to achieve better scores. The results are promising but with more time, I think the model could be more fine-tuned.
 
-In addition, it will be interesting to try to extract some more features from the data give, like the total amount of offers a customer has received.
 
-Finally, the cleaned dataset consisted of two groups: those who have responded to an offer and those who even though they viewed it, they didn't make a purchase. Other groups were also extracted, for example, those who did buy the product regardless before viewing the offer, that could be taken consideration.
+
+
+
+
+
+
