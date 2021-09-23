@@ -56,6 +56,9 @@ For running the model four of Sklearn's estimators are recruited: Linear Regress
 
 With the suprising exception of the Random Forest regressor, the results are solid, with the "EBITDA in US* million" being estimated in the 189- range. Another surprising result is that the indicator "Net working capital in US* million" has been found to have a negative relationship with the dependent variable "EBITDA in US* million".
 
+<p align="center">
+  <img width="80%" height="100%" src="https://github.com/ebelingbarros/udacity_capstone_project/blob/main/results_synthesis.png"> 
+</p> 
 
 ## Conclusion
 
