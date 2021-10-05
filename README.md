@@ -78,6 +78,6 @@ A possible next step is to gather investments data from these Brazilian companie
  
 As a last word, I would like to state that this project scope was quiet unambitious in terms of the proposed business question. My objective here was less to develop an advanced framework to understand the behavior of top Brazilian companies than to train some of the things that have been learned in the course, chiefly the practice of utilizing functions in the development of ML models. 
 
-The entire Medium post regarding these conclusions might be read [here](). 
+The entire Medium post regarding these conclusions can be read [here](). 
 
 
