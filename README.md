@@ -13,10 +13,12 @@ The code presented in this repository was written in Python 3. To work, it requi
 - Sklearn
 - Statsmodels
 
-## Introduction and project motivation
-Every year (for 48 years now), the Brazilian fortnightly magazine Exame, that specializes in business and technology and is published by Editora Abril, releases a study called ["Melhores e Maiores" (Best and Largest)](https://mm.exame.com/), with a ranking of Brazil's 500 largest companies, based on their net profits. 
+## Introduction, project motivation and data
+Every year (for 48 years now), the Brazilian fortnightly magazine Exame, that specializes in business and technology and is published by Editora Abril, releases a study called ["Melhores e Maiores" (Best and Largest)](https://mm.exame.com/), with a ranking of Brazil's 500 largest companies, based on their net profits. In its website, Exame makes available the ranking for the 2015-2019 period. 
 
-In the latter it was established that several indicators available for the set of Brazil's 500 largest companies in the 2015-2019 period - such as "Sales profitability in %", "Adjusted profit in US* million" and "EBITDA in US* million" - reflect a crisis scenario. 
+The objective of this project is to understand the drivers of profitability of Brazil's companies, as the 2015-2019 period was struck by a considerable economic crisis. As will be seen in the EDA, several indicators available for the set of Brazil's 500 largest companies in the 2015-2019 period - such as "Sales profitability in %", "Adjusted profit in US* million" and "EBITDA in US* million" - reflect a crisis scenario. 
+
+For this purpose, I will employ Machine Learnign models to predict the "EBITDA in US$ million" and its drivers, which are measured by the parameters of the model.  
 
 ## File Descriptions
 - Capstone Notebook.ipynb: The code contained in this Jupyter notebook cleans and prepares the data, carries out the EDA analysis and generates the Machine Learning regression model. 
