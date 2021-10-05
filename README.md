@@ -14,11 +14,28 @@ The code presented in this repository was written in Python 3. To work, it requi
 - Statsmodels
 
 ## Introduction, project motivation and data
-Every year (for 48 years now), the Brazilian fortnightly magazine Exame, that specializes in business and technology and is published by Editora Abril, releases a study called ["Melhores e Maiores" (Best and Largest)](https://mm.exame.com/), with a ranking of Brazil's 500 largest companies, based on their net profits. In its website, Exame makes available the ranking for the 2015-2019 period. 
+Every year (for 48 years now), the Brazilian fortnightly magazine Exame, that specializes in business and technology and is published by Editora Abril, releases a study called ["Melhores e Maiores" (Best and Largest)](https://mm.exame.com/), with a ranking of Brazil's 500 largest companies, based on their net profits. In its website, Exame makes available the ranking of the 500 largest companies for the 2015-2019 period, and extensive data on their level of revenues, profits, and financial health. This is a selection of the data that is available in the data set:
 
-The objective of this project is to understand the drivers of profitability of Brazil's companies, as the 2015-2019 period was struck by a considerable economic crisis. As will be seen in the EDA, several indicators available for the set of Brazil's 500 largest companies in the 2015-2019 period - such as "Sales profitability in %", "Adjusted profit in US* million" and "EBITDA in US* million" - reflect a crisis scenario. 
+- Rank                                         
+- Sector                                       
+- Net sales in US$ million                         
+- Net sales percentage growth                      
+- Legal net income US$ million                
+- Adjusted profit US$million                 
+- Sales profitability percentage
+- Net working capital in US$ million             
+- General indebtedness percentage
+- Long term indebtedness percentage
+- No. of employees                                  
+- Wages and charges US$million               
+- Ebitda in US$ million                     
+- Equity control                               
 
-For this purpose, I will employ Machine Learnign models to predict the "EBITDA in US$ million" and its drivers, which are measured by the parameters of the model.  
+As will be seen in the EDA, several indicators available for the set of Brazil's 500 largest companies in the 2015-2019 period - such as "Sales profitability in %", "Adjusted profit in US* million" and "EBITDA in US* million" - reflect a crisis scenario.  In this context, the objective of this project is to understand the drivers of profitability of Brazil's companies, as the 2015-2019 period was struck by a considerable economic crisis. The question that I attempt to answer are:
+
+**What are the drivers of the profitabiity of Brazil's largest companies, measured by their EBITDA in US$ million? In a high indebtedness scenario, are companies that have a larger degree of maneuvre for investments, as measured by the Net working capital in US$ million, more profitable? Are there differences in profitability between private Brazilian companies, foreign controlled ones, and State-Owned Enterprises?**              
+
+To answer these questions, I will perform an EDA and employ Machine Learning models to predict the "EBITDA in US$ million" and its drivers, which are measured by the parameters of the model.  
 
 ## File Descriptions
 - Capstone Notebook.ipynb: The code contained in this Jupyter notebook cleans and prepares the data, carries out the EDA analysis and generates the Machine Learning regression model. 
