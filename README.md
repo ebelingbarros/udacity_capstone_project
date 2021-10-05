@@ -79,12 +79,7 @@ With the suprising exception of the Random Forest regressor, the results are sol
   <img width="80%" height="100%" src="https://github.com/ebelingbarros/udacity_capstone_project/blob/main/results_synthesis.png"> 
 </p> 
 
-## Conclusion
-
-
-
-
-## Next steps
+## Conclusions and next steps
 
 
 
