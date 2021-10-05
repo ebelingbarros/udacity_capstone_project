@@ -33,7 +33,7 @@ Every year (for 48 years now), the Brazilian fortnightly magazine Exame, that sp
 
 As will be seen in the EDA, several indicators available for the set of Brazil's 500 largest companies in the 2015-2019 period - such as "Sales profitability in %", "Adjusted profit in US* million" and "EBITDA in US* million" - reflect a crisis scenario.  In this context, the objective of this project is to understand the drivers of profitability of Brazil's companies, as the 2015-2019 period was struck by a considerable economic crisis. The question that I attempt to answer are:
 
-**What are the drivers of the profitabiity of Brazil's largest companies, measured by their EBITDA in US$ million? In a high indebtedness scenario, are companies that have a larger degree of maneuvre for investments, as measured by the Net working capital in US$ million, more profitable? Are there differences in profitability between private Brazilian companies, foreign controlled ones, and State-Owned Enterprises?**              
+**What are the drivers of the profitabiity of Brazil's largest companies, measured by their EBITDA in US$ million (Earnings Before Interest, Taxes, Depreciation, and Amortization)? In a high indebtedness scenario, are companies that have a larger degree of maneuvre for investments, as measured by the Net working capital in US$ million, more profitable? Are there differences in profitability between private Brazilian companies, foreign controlled ones, and State-Owned Enterprises?**              
 
 To answer these questions, I will perform an EDA and employ Machine Learning models to predict the "EBITDA in US$ million" and its drivers, which are measured by the parameters of the model.  
 
@@ -43,7 +43,7 @@ To answer these questions, I will perform an EDA and employ Machine Learning mod
 
 ## Methodology
 ### 1. Data cleaning and preprocessing
-I opted to perform the data cleaning before the EDA, as the data in the original set was in Portuguese. This step consisted in translating columns, column values and dropping some columns where the number of NANs was larger than 1000.
+I opted to perform the data cleaning before the EDA, as the data in the original set was in Portuguese. This step consisted in translating columns, column values and dropping some columns where the number of NANs was larger than 1000. 
 
 ### 2. Exploratory Data Analysis
 
@@ -53,7 +53,7 @@ The EDA Analysis permits some crucial conclusions. As can be seen in the graph b
   <img width="80%" height="100%" src="https://github.com/ebelingbarros/udacity_capstone_project/blob/main/figure1.png"> 
 </p> 
 
-The indicator EBITDA (Earnings Before Interest, Taxes, Depreciation, and Amortization) is a measure of a company's profitability. As suggested by the Graph below, the fact that it has been low or negative for most companies reflects that this is a period of crisis.
+As suggested by the Graph below, the fact that the EBITDA in US$ million has been low or negative for most companies reflects that this is a period of crisis.
 
 <p align="center">
   <img width="80%" height="100%" src="https://github.com/ebelingbarros/udacity_capstone_project/blob/main/figure2.png"> 
@@ -67,19 +67,20 @@ This graph tells us that the most profitable companies in terms of its EBITDA ar
 
 ### 3. Building the model
 
-The main goal of this project is to create a Machine Learning model capable of predicting the "EBITDA in US* million" and also in establishing its main determinants. Because of the conclusions obtained in the EDA, a preliminary step before creating the Machine Learning model is to estimate OLS estimations for the dependent variable and the chosen independent variables, 'Net working capital in US* million', 'Net sales US* million', 'Sales profitability (perc.)", 'Employees', 'Long term indebtedness (perc.)' considering subsets of the dataframe according to the companies' equity control (Private Brazilian, Foreign and SEOs). It is found that although the results are diverging, the aggregate dataframe has the best parameters and results. 
+While one question could be answered with the EDA ( Are there differences in profitability between private Brazilian companies, foreign controlled ones, and State-Owned Enterprises), the most important part of this project is the creation a Machine Learning model capable of predicting the "EBITDA in US* million" and also in establishing its main determinants. Because of the conclusions obtained in the EDA, a preliminary step before creating the Machine Learning model is to estimate OLS estimations for the dependent variable and the chosen independent variables, 'Net working capital in US* million', 'Net sales US* million', 'Sales profitability (perc.)", 'Employees', 'Long term indebtedness (perc.)' considering subsets of the dataframe according to the companies' equity control (Private Brazilian, Foreign and SEOs). It is found that although the results are diverging, the aggregate dataframe has the best parameters and results. 
 
 For running the model four of Sklearn's estimators are recruited: Linear Regression, Random Forest, SGDR and Bayesian. 
 
 ### 4. Model Evaluation
 
-With the suprising exception of the Random Forest regressor, the results are solid, with the "EBITDA in US* million" being estimated in the 189- range. Another surprising result is that the indicator "Net working capital in US* million" has been found to have a negative relationship with the dependent variable "EBITDA in US* million".
+With the suprising exception of the Random Forest regressor, the results are solid, with the "EBITDA in US$ million" being estimated in the 189- range. Another surprising result is that the indicator "Net working capital in US* million" has been found to have a negative relationship with the dependent variable "EBITDA in US* million".
 
 <p align="center">
   <img width="80%" height="100%" src="https://github.com/ebelingbarros/udacity_capstone_project/blob/main/results_synthesis.png"> 
 </p> 
 
 ## Conclusion
+
 
 
 
