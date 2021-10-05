@@ -2,16 +2,7 @@
 
 ## Libraries
 
-The code presented in this repository was written in Python 3. To work, it requires the following Python packages:
-
-- Pandas
-- Numpy
-- Math 
-- Seaborn
-- Plotly
-- Matplotlib
-- Sklearn
-- Statsmodels
+The code presented in this repository was written in Python 3. To work, it requires the following Python packages: `Pandas`, `Numpy`, `Math`, `Seaborn`, `Plotly`, `Matplotlib`, `Sklearn` and `Statsmodels`.
 
 ## Introduction, project motivation and data
 Every year (for 48 years now), the Brazilian fortnightly magazine Exame, that specializes in business and technology and is published by Editora Abril, releases a study called ["Melhores e Maiores" (Best and Largest)](https://mm.exame.com/), with a ranking of Brazil's 500 largest companies, based on their net profits. In its website, Exame makes available the ranking of the 500 largest companies for the 2015-2019 period, and extensive data on their level of revenues, profits, and financial health. This is a selection of the data that is available in the data set:
