@@ -38,7 +38,7 @@ As will be seen in the EDA, several indicators available for the set of Brazil's
 To answer these questions, I will perform an EDA and employ Machine Learning models to predict the "EBITDA in US$ million" and its drivers, which are measured by the parameters of the model.  
 
 ## File Descriptions
-- Capstone Notebook.ipynb: The code contained in this Jupyter notebook cleans and prepares the data, carries out the EDA analysis and generates the Machine Learning regression model. 
+- [capstone_notebook.ipynb](https://github.com/ebelingbarros/udacity_capstone_project/blob/main/capstone_notebook.ipynb): The code contained in this Jupyter notebook cleans and prepares the data, carries out the EDA analysis and generates the Machine Learning regression model. 
 - data: The folder contains the exame500.csv, in which the data for the project is stored.
 
 ## Methodology
