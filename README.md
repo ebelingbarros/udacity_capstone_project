@@ -39,7 +39,7 @@ To answer these questions, I will perform an EDA and employ Machine Learning mod
 
 ## File Descriptions
 - [capstone_notebook.ipynb](https://github.com/ebelingbarros/udacity_capstone_project/blob/main/capstone_notebook.ipynb): The code contained in this Jupyter notebook cleans and prepares the data, carries out the EDA analysis and generates the Machine Learning regression model. 
-- data: The folder contains the exame500.csv, in which the data for the project is stored.
+- data: The folder contains the [exame500.csv](https://github.com/ebelingbarros/udacity_capstone_project/blob/main/data/exame500.csv), in which the data for the project is stored.
 
 ## Methodology
 ### 1. Data cleaning and preprocessing
