@@ -72,10 +72,12 @@ With the suprising exception of the Random Forest regressor, the results are sol
 
 ## Conclusions and next steps
 
+This project has developed ML regression models capable of predicting the likely EBITDA in US$ million of top 500 Brazilian companies. The model also estimated the drivers of profitability as measured by the EBITDA in US$ million. It was seen that the Net working capital in US$ million, which is a precondition to carry out investment, is negatively correlated with the EBITDA. This suggests that companies that have a larger degree of maneuvre to invest do not necessarily are more profitable. Before that, in the EDA part, it was also seen that private Brazilian companies and foreign controlled ones tend to be more profitable that SEOs. 
 
+A possible next step is to gather investments data from these Brazilian companies' websites to answer the question if companies that invest more are profitable or not. It should be noted that this step would require lots of time because data mining tools are difficult to apply to the universe of top 500 Brazilian companies due to the absence of data for some companies and the fact that the data is very scattered. 
+ 
+As a last word, I would like to state that this project scope was quiet unambitious in terms of the proposed business question. My objective here was less to develop an advanced framework to understand the behavior of top Brazilian companies than to train some of the things that have been learned in the course, chiefly the practice of utilizing functions in the development of ML models. 
 
-
-
-
+The entire Medium post regarding these conclusions might be read [here](). 
 
 
