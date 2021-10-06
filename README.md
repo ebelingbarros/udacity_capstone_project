@@ -22,9 +22,15 @@ Every year (for 48 years now), the Brazilian fortnightly magazine Exame, that sp
 - Ebitda in US$ million                     
 - Equity control                               
 
-As will be seen in the EDA, several indicators available for the set of Brazil's 500 largest companies in the 2015-2019 period - such as "Sales profitability in %", "Adjusted profit in US* million" and "EBITDA in US* million" - reflect a crisis scenario.  In this context, the objective of this project is to understand the drivers of profitability of Brazil's companies, as the 2015-2019 period was struck by a considerable economic crisis. The question that I attempt to answer are:
+As will be seen in the EDA, several indicators available for the set of Brazil's 500 largest companies in the 2015-2019 period - such as "Sales profitability in %", "Adjusted profit in US* million" and "EBITDA in US* million" - reflect a crisis scenario.  In this context, the objective of this project is to understand the drivers of profitability of Brazil's companies, as the 2015-2019 period was struck by a considerable economic crisis. The questions that I attempt to answer are:
 
-**What are the drivers of the profitabiity of Brazil's largest companies, measured by their EBITDA in US$ million (Earnings Before Interest, Taxes, Depreciation, and Amortization)? In a high indebtedness scenario, are companies that have a larger degree of maneuvre for investments, as measured by the Net working capital in US$ million, more profitable? Are there differences in profitability between private Brazilian companies, foreign controlled ones, and State-Owned Enterprises?**              
+**- Is it possible to predict the EBITDA in US$ million (Earnings Before Interest, Taxes, Depreciation, and Amortization), which is a measure of profitability, of Brazilian's largest companies?**
+
+**- What are the drivers of EBITDA?**
+
+**- In a high indebtedness scenario, are companies that have a larger degree of maneuvre for investments, as measured by the Net working capital in US$ million, more profitable** 
+
+**- Are there differences in profitability between private Brazilian companies, foreign controlled ones, and State-Owned Enterprises?**              
 
 To answer these questions, I will perform an EDA and employ Machine Learning models to predict the "EBITDA in US$ million" and its drivers, which are measured by the parameters of the model.  
 
