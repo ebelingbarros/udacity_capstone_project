@@ -56,11 +56,13 @@ As suggested by the Graph below, the fact that the EBITDA in US$ million has bee
   <img width="80%" height="100%" src="https://github.com/ebelingbarros/udacity_capstone_project/blob/main/figure2.png"> 
 </p> 
 
+The following graph conveys that although this is a period of crisis, **it is also one of recovery**. While the indicator "Net sales in US million" is strongly suggestive of a crisis scenario in the two first years of the dataset, the recovery of the "EBITDA in US million" towards the end of the period indeed suggests a recovery.
+
 <p align="center">
   <img width="80%" height="100%" src="https://github.com/ebelingbarros/udacity_capstone_project/blob/main/figure4.png"> 
 </p> 
 
-The following graph conveys that although this is a period of crisis, **it is also one of recovery**. While the indicator "Net sales in US million" is strongly suggestive of a crisis scenario in the two first years of the dataset, the recovery of the "EBITDA in US million" towards the end of the period indeed suggests a recovery.
+Similar conclusions are reached by the following graph. While the oscillations in the indicator "Net sales perc growth" and the increase in "General Indebment" suggest a crisis, the rise in "Sales profitability perc" suggests a recovery.
 
 <p align="center">
   <img width="80%" height="100%" src="https://github.com/ebelingbarros/udacity_capstone_project/blob/main/figure5.png"> 
