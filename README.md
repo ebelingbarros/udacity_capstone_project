@@ -56,6 +56,14 @@ As suggested by the Graph below, the fact that the EBITDA in US$ million has bee
   <img width="80%" height="100%" src="https://github.com/ebelingbarros/udacity_capstone_project/blob/main/figure2.png"> 
 </p> 
 
+<p align="center">
+  <img width="80%" height="100%" src="https://github.com/ebelingbarros/udacity_capstone_project/blob/main/figure4.png"> 
+</p> 
+
+<p align="center">
+  <img width="80%" height="100%" src="https://github.com/ebelingbarros/udacity_capstone_project/blob/main/figure5.png"> 
+</p> 
+
 This graph tells us that the most profitable companies in terms of its EBITDA are either private Brazilian or foreign. As expected, SEOs have a lower EBITDA but may also have huge Net sales in US$ million.
 
 <p align="center">
