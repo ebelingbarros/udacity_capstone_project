@@ -88,6 +88,12 @@ With the suprising exception of the Random Forest regressor, the results are sol
   <img width="80%" height="100%" src="https://github.com/ebelingbarros/udacity_capstone_project/blob/main/results_synthesis.png"> 
 </p> 
 
+While it is possible to estimate EBITDA for the period as a whole, it gets more complicated for the individual years' estimation. For the estimation technique for individual years, with linear regression, statistical significance is only reached in 2015, 2017, and 2018, which makes drawing conclusions more difficult, as the proposed model might be unsuitable. Nonetheless, it is interesting to notice that the predicted mean EBITDA grew from 2015 to 2017, signalling the beginning of a possible recovery.
+
+<p align="center">
+  <img width="80%" height="100%" src="https://github.com/ebelingbarros/udacity_capstone_project/blob/main/results_2.png"> 
+</p> 
+
 ## Conclusions and next steps
 
 This project has developed ML regression models capable of predicting the likely EBITDA in US$ million of top 500 Brazilian companies. The model also estimated the drivers of profitability as measured by the EBITDA in US$ million. It was seen that the Net working capital in US$ million, which is a precondition to carry out investment, is negatively correlated with the EBITDA. This suggests that companies that have a larger degree of maneuvre to invest do not necessarily are more profitable. Before that, in the EDA part, it was also seen that private Brazilian companies and foreign controlled ones tend to be more profitable that SEOs. 
