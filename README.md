@@ -5,7 +5,7 @@
 The code presented in this repository was written in Python 3. To work, it requires the following Python packages: `Pandas`, `Numpy`, `Math`, `Seaborn`, `Plotly`, `Matplotlib`, `Sklearn` and `Statsmodels`.
 
 ## Introduction, project motivation and data
-Every year (for 48 years now), the Brazilian fortnightly magazine Exame, that specializes in business and technology and is published by Editora Abril, releases a study called ["Melhores e Maiores" (Best and Largest)](https://mm.exame.com/), with a ranking of Brazil's 500 largest companies, based on their net profits. In its website, Exame makes available the ranking of the 500 largest companies for the 2015-2019 period, and extensive data on their level of revenues, profits, and financial health. This is a selection of the data that is available in the data set:
+Every year (for 48 years now), the Brazilian fortnightly magazine Exame, that specializes in business and technology and is published by Editora Abril, releases a study called ["Melhores e Maiores" (Best and Largest)](https://mm.exame.com/). It is a ranking of Brazil's 500 largest companies, based on their net profits. In its website, Exame makes available the ranking of the 500 largest companies for the 2015-2019 period, and extensive data on their level of revenues, profits, and financial health. This is a selection of the data that is available in the data set:
 
 - Rank                                         
 - Sector                                       
@@ -22,11 +22,11 @@ Every year (for 48 years now), the Brazilian fortnightly magazine Exame, that sp
 - Ebitda in US$ million                     
 - Equity control                               
 
-As will be seen in the EDA, several indicators available for the set of Brazil's 500 largest companies in the 2015-2019 period - such as "Sales profitability in %", "Adjusted profit in US* million" and "EBITDA in US* million" - reflect a crisis scenario.  In this context, the objective of this project is to understand the drivers of profitability of Brazil's companies, as the 2015-2019 period was struck by a considerable economic crisis. The questions that I attempt to answer are:
+As will be seen in the EDA, several indicators available for the set of Brazil's 500 largest companies in the 2015-2019 period - such as "Sales profitability in %", "Adjusted profit in US* million" and "EBITDA in US* million" - appear to reflect a crisis scenario.  In this context, the objective of this project is to analyse whether the data available in Exame's ranking on Brazil's top 500 companies for the 2015-2019 scenario can indeed be interpreted as markers of a crisis and what are its main drivers. The questions that I attempt to answer are:
 
-**- Is it possible to predict the EBITDA in US$ million (Earnings Before Interest, Taxes, Depreciation, and Amortization), which is a measure of profitability, of Brazilian's largest companies?**
+**- Is it possible to predict the EBITDA in US$ million (Earnings Before Interest, Taxes, Depreciation, and Amortization), which is a measure of profitability, of Brazilian's largest companies? Can the prediction be used as an indicator of economic crisis?**
 
-**- What are the drivers of EBITDA?**
+**- What are the drivers of EBITDA and, hence, most important endogenous determinants of the companies' crisis?**
 
 **- In a high indebtedness scenario, are companies that have a larger degree of maneuvre for investments, as measured by the Net working capital in US$ million, more profitable** 
 
