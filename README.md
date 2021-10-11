@@ -82,13 +82,13 @@ For running the model four of Sklearn's estimators are recruited: Linear Regress
 
 ### 4. Model Evaluation
 
-With the suprising exception of the Random Forest regressor, the results are solid, with the "EBITDA in US$ million" being estimated in the 189- range. Another surprising result is that the indicator "Net working capital in US* million" has been found to have a negative relationship with the dependent variable "EBITDA in US* million".
+With the suprising exception of the Random Forest regressor, the results are solid, with the "EBITDA in US$ million" being estimated in the US$189-239 million range. Another surprising result is that the indicator "Net working capital in US* million" has been found to have a negative relationship with the dependent variable "EBITDA in US* million".
 
 <p align="center">
   <img width="80%" height="100%" src="https://github.com/ebelingbarros/udacity_capstone_project/blob/main/results_synthesis.png"> 
 </p> 
 
-To have a more nuanced picture of the data, I decide to run the models once more for every individual year for the Linear regression case. While it is possible to estimate EBITDA for the period as a whole, it gets more complicated for the individual years' estimation. For the estimation technique for individual years, with linear regression, statistical significance is only reached in 2015, 2017, and 2018, which makes drawing conclusions more difficult, as the proposed model might be unsuitable. Nonetheless, it is interesting to notice that the predicted mean EBITDA grew from 2015 to 2017, signalling the beginning of a possible recovery.
+To have a more nuanced picture of the data, I decide to run the models once more for every individual year for the Linear regression case. While it is possible to estimate  the EBITDA for the period as a whole, it gets more complicated for the individual years' estimation. For the estimation technique for individual years - performed with linear regression - relative result robustness as measured by the R2 and the RMSE is only reached in 2015, 2017, and 2018. This makes drawing conclusions more difficult, as the proposed model might be unsuitable. Nonetheless, it is interesting to notice that the predicted mean EBITDA grew from 2015 to 2017, signalling the beginning of a possible recovery.
 
 <p align="center">
   <img width="80%" height="100%" src="https://github.com/ebelingbarros/udacity_capstone_project/blob/main/results_2.png"> 
