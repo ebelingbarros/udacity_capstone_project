@@ -76,13 +76,13 @@ This graph tells us that the most profitable companies in terms of its EBITDA ar
 
 ### 3. Building the model
 
-While one question could be answered with the EDA ( Are there differences in profitability between private Brazilian companies, foreign controlled ones, and State-Owned Enterprises), the most important part of this project is the creation a Machine Learning model capable of predicting the "EBITDA in US$ million" and also in establishing its main determinants. Because of the conclusions obtained in the EDA, a preliminary step before creating the Machine Learning model is to estimate OLS estimations for the dependent variable and the chosen independent variables, 'Net working capital in US* million', 'Net sales US* million', 'Sales profitability (perc.)", 'Employees', 'Long term indebtedness (perc.)' considering subsets of the dataframe according to the companies' equity control (Private Brazilian, Foreign and SEOs). It is found that although the results are diverging, the aggregate dataframe has the best parameters and results. 
+While one question could be answered with the EDA ( Are there differences in profitability between private Brazilian companies, foreign controlled ones, and State-Owned Enterprises), the most important part of this project is the creation a Machine Learning model capable of predicting the "EBITDA in US$ million" and also in establishing its main determinants. Because of the conclusions obtained in the EDA, a preliminary step before creating the Machine Learning model is to estimate OLS estimations for the dependent variable and the chosen independent variables, 'Net working capital in US$ million', 'Net sales US$ million', 'Sales profitability (perc.)", 'Employees', 'Long term indebtedness (perc.)' considering subsets of the dataframe according to the companies' equity control (Private Brazilian, Foreign and SEOs). It is found that although the results are diverging, the aggregate dataframe has the best parameters and results. 
 
 For running the model four of Sklearn's estimators are recruited: Linear Regression, Random Forest, SGDR and Bayesian. 
 
 ### 4. Model Evaluation
 
-With the suprising exception of the Random Forest regressor, the results are solid, with the "EBITDA in US$ million" being estimated in the US$191-280 million range. Another surprising result is that the indicator "Net working capital in US* million" has been found to have a negative relationship with the dependent variable "EBITDA in US* million".
+The results are solid for all estimators, with the "EBITDA in US$ million" being estimated in the US$191-263 million range. Another surprising result is that the indicator "Net working capital in US* million" has been found to have a negative relationship with the dependent variable "EBITDA in US* million".
 
 <p align="center">
   <img width="80%" height="100%" src="https://github.com/ebelingbarros/udacity_capstone_project/blob/main/results_synthesis.png"> 
