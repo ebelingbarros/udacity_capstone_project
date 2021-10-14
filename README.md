@@ -91,7 +91,7 @@ The results are solid for all estimators, with the "EBITDA in US$ million" being
 To have a more nuanced picture of the data, I decide to run the models once more for every individual year for the Linear regression case. While it is possible to estimate  the EBITDA for the period as a whole, it gets more complicated for the individual years' estimation. For the estimation technique for individual years - performed with linear regression - relative result robustness as measured by the R2 and the RMSE is only reached in 2015, 2017, and 2018. This makes drawing conclusions more difficult, as the proposed model might be unsuitable. Nonetheless, it is interesting to notice that the predicted mean EBITDA grew from 2015 to 2017, signalling the beginning of a possible recovery.
 
 <p align="center">
-  <img width="80%" height="100%" src="https://github.com/ebelingbarros/udacity_capstone_project/blob/main/results_2.png"> 
+  <img width="80%" height="100%" src="https://github.com/ebelingbarros/udacity_capstone_project/blob/main/results_synthesis2.png"> 
 </p> 
 
 ## Conclusions and next steps
