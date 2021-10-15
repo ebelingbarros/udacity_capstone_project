@@ -82,7 +82,7 @@ For running the model four of Sklearn's estimators are recruited: Linear Regress
 
 ### 4. Model Evaluation
 
-The results are solid for all estimators, with the "EBITDA in US$ million" being estimated in the US$191-263 million range.One surprising result is that the indicator "Net working capital in US$ million" has been found to have a negative relationship with the dependent variable "EBITDA in US$ million".
+The results are solid for all estimators, with the "EBITDA in US$ million" being estimated in the US$191-233 million range.One surprising result is that the indicator "Net working capital in US$ million" has been found to have a negative relationship with the dependent variable "EBITDA in US$ million".
 
 <p align="center">
   <img width="80%" height="100%" src="https://github.com/ebelingbarros/udacity_capstone_project/blob/main/results_synthesis.png"> 
