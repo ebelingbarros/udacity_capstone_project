@@ -52,12 +52,12 @@ The entire Medium post regarding these conclusions can be read [here](https://eb
 - The estimation of a Random Forest models for, respectively, oil prices and renewable energy consumption, considering sentiment analysis is based on [Bee Guan Teo's](https://python.plainenglish.io/how-to-predict-stock-prices-change-with-random-forest-in-python-f707e101d5c4) notebook.
 
 ### Images
-- Cartoon by [Kal](https://www.kaltoons.com/) on The Economist
+- Cartoon by [Kal](https://www.kaltoons.com/) on [The Economist](https://www.economist.com/)
 
-- Stocks photo by [Arvind Vallabh](https://unsplash.com/@vallabh1?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/oil-rig?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+- Stocks photo by [Arvind Vallabh](https://unsplash.com/@vallabh1?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/)
 
-- Renewable energy photo by [m.](https://unsplash.com/@m_____me?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/oil-rig?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+- Renewable energy photo by [m.](https://unsplash.com/@m_____me?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/)
 
-- Oil rig photo by [American Public Power Association](https://unsplash.com/@publicpowerorg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/oil-rig?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+- Oil rig photo by [American Public Power Association](https://unsplash.com/@publicpowerorg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/)
 
 
